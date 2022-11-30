@@ -1,0 +1,46 @@
+1- Acessar o site do Aliexpress
+    1.1- Conferir se o pc esta ligado a um cabo de rede
+    1.2- Abrir o navegador
+    1.2- Clicar na barra de pesquisas para poder Digitar
+    1.3- Digitar Aliexpress.com
+    1.4- Clicar no link para abrir o site
+2- Clicar no espaço de pesquisa
+3- Digitar MacBook
+4- Procurar o MacBook com  a melhor configuração
+5- Ver qual esta com o melhor preço
+6- Clicar em cima da imagem do MacBook para poder abrir a paginade compra 
+7- Clicar no botao comprar
+8- Colocar o endereço e informaçoes pessoais para realizar a compra
+9- Colocar o numero do cartao
+10- clicar em confirmar 
+11- Esperar a entrega 
+12- Apos a entrega conferir se veio do jeito que pediu
+13- Dar uma avaliação no site
+14- Faça um bom uso do produto
+15- Vai na fé
+
+
+=============================================================================================
+
+1- Aguardar o primeiro numero
+2- Aguardar o segundo numero
+3- calcular e armazenar a soma entre o primeiro numero e o segundo numero
+4- O resultado do calculo é a soma armazenada
+
+Linguagem em Java:
+
+var nun1;
+var nun2;
+var calculo;
+
+readln("Informe o primeiro numero:", nun1);
+readln("Informe o segundo numero:", nun2);
+
+calculo = nun1 + nun2;
+
+writeln("O resultado do calculo é:", calculo);
+
+Tarefa 
+
+Fazer um programa que calcule o valor do imposto de renda baaseado num salario
+(Aliquota Imposto de renda: 7,5%)
