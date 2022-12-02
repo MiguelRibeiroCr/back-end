@@ -1,0 +1,144 @@
+1. Classifique os dados especificados abaixo de acordo com seu tipo, assinalando com I os
+dados do tipo inteiro, com R os reais, com L os literais, com B os lógicos (booleanos), e
+com N aqueles para os quais não é possível definir a priori um tipo de dado.
+
+(B) 0.21
+(I) 1
+(B) V
+(L) “0.”
+(N) 1%
+(L) “José”
+(N) 0,35
+(N) .F.
+(R) -0.001
+
+(N) .T.
+(I) +3257
+(L) “a”
+(L) “+3257”
+(N) +3257.
+(L) “-0.0”
+(L) “.F.”
+(N) ± 3
+
+(N) .V.
+(N) .V
+(L) “abc”
+(B) F
+(N) C
+(N) Maria
+(I) +36
+
+======================================================================================================
+
+Pessoal,
+
+Vamos escrever um programa que receba que notas (De 1 a 10), calcule e armazene a média, 
+e no final escreva aprovado caso a média seja maior ou igual a 7, e reprovado caso a média 
+seja menor que 7.
+
+4 - notas
+
+1- Decrição narrativa
+
+1- Solicitar ao usuario a nota do primeiro bimestre
+2- Solicitar ao usuario a nota do segundo bimestre
+3- Solicitar ao usuario a nota do terceiro bimestre
+4- Solicitar ao usuario a nota do quarto bimestre
+5- Calcular e armazenar (nota1 + nota2 + nota3 + nota4) / 4
+6- Se a media >=7 escreva Aluno aprovado
+7- Se não ecreve Aluno reprovado
+
+2- Pseudocódigo
+
+var nota1
+var nota2
+var nota3
+var nota4
+var media
+
+readln("Informe a nota do primeiro bimestre", nota1);
+readln("Informe a nota do segundo bimestre", nota2);
+readln("Informe a nota do terceiro bimestre", nota3);
+readln("Informe a nota do quarto bimestre", nota4);
+
+media = (nota1+ nota2 + nota3 + nota4) / 4;
+
+if(media >= 7)
+
+    escreva("Aluno aprovado");
+else
+    escreva("Aluno reprovado");
+
+
+======================================================================================================
+
+Faça um algortimo que receba o nome do usuario e a idade e mostre ao 
+usuario a seguinte mensagem: Olá, seu nome é nomeUsuario voce tem idadeUsuario anos.
+
+1- Descrição narrativa
+
+1- Solicitar o nome do usuario
+2- Solicitar a idade do usuario
+3- Olá, seu nome é (nomeUsuario) voce tem (idadeUsuario) anos.
+ 
+
+
+2- Pseudocódigo
+
+var nomeUsuario
+var idadeUsuario
+
+readln("Informe seu nome:", nomeUsuario);
+readln("Informe sua idade:", idadeUsuario);
+writeln("Olá, seu nome é nomeUsuario voce tem idadeUsuario anos.");
+
+3-Fluxograma
+
+========================================================================================================
+
+Faça um algoritmo que vai receber a cidade de nascimento do usuário,
+e vai mostrar a seguinte mensagem: Você nasceu em [NOME DA CIDADE]
+
+1-Decrição narrativa
+
+1-Solicitar a cidade de nascimento do usuario
+2-Você nasceu em nomeCidade
+
+2- Pseudocódigo
+
+var nomeCidade
+
+readln("Informe o nome da cidade de nascimeno:", nomeCidade)
+writeln("Você nasceu em", nomeCidade);
+
+3- Fluxograma
+
+========================================================================================================
+
+Faça um algoritmo que receba do usuario um numero qualquer, 
+faça uma soma deste numero com o numero 10,
+e escreva o resultado com a seguinte mensagem: 
+Você somou [numeroEntrada] mais o numero 10,
+o resultado é [numeroCalculado]
+
+1- Decrição narrativa
+
+1- Solicitar um numero qualquer
+2- Calcular e armazenar a soma do numero informado mais o numero 10
+3- Mostrar ao usuario a seguinte mensagem: Você somou numeroEntrada
+ mais o numero 10, o resultado é numeroCalculado
+
+2- Pseudocódigo
+
+const numeroConstante = 10
+var numeroQualquer
+var numeroCalculado
+
+readln("Informe um numero qualquer:", numeroQualquer);
+numeroCalculado = numeroQualquer + numeroConstante;
+writeln("Você somou numeroEntrada mais o numero 10,
+o resultado é o numeroCalculado");
+
+3- Fluxograma
+
